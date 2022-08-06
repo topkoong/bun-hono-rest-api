@@ -1,17 +1,33 @@
-# Hono with Bun runtime
+# Bun runtime + Hono + Rest API + Bearer Auth Exploration
 
 ## Getting Started
 
 ### Cloning the repo
 
 ```sh
-bun create hono ./NAME_HERE
+git clone
+```
+
+### Install dependencies
+
+```sh
+bun install
 ```
 
 ### Development
-```
-bun run start
+
+You can use `bun run src/index.ts` to run the project. Then, access http://localhost:8000 in your browser.
+
+```sh
+npm start
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+### Testing
 
+You can use bun:test for testing on Bun.
+
+```sh
+npm run test
+```
+
+Open http://localhost:8000 with your browser to see the result.

@@ -1,6 +1,7 @@
 {
   "version": "1.0.4",
-  "name": "hono",
+  "name": "bun-hono-rest-api",
+  "author": "Theerut Top",
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -8,7 +9,8 @@
     "hono": "^2.0.0"
   },
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun run src/index.ts",
+    "test": "bun wiptest src/index.test.ts"
   },
   "module": "src/index.js"
 }
