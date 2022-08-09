@@ -5,7 +5,7 @@
 ### Cloning the repo
 
 ```sh
-git clone
+git clone https://github.com/topkoong/bun-hono-rest-api.git
 ```
 
 ### Install dependencies
